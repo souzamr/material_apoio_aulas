@@ -4,7 +4,7 @@
 # 10 pontos de coleta aleatórios próximos a Juréia
 
 # Install packages
-install.packages(c("shiny", "leaflet"))
+# install.packages(c("shiny", "leaflet"))
 
 # Load libraries
 library(shiny)
