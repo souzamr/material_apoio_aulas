@@ -2,8 +2,8 @@
 # necessário conexão com a internet para baixar os pacotes e figuras
 # lembrando que as imagens serão salvas no diretório de trabalho
 
-install.packages("magick")
-install.packages("rsvg")
+# install.packages("magick")
+# install.packages("rsvg")
 library(magick)
 danca <- image_read("http://bestanimations.com/Music/Dancers/happy-dance/happy-dance-animated-gif-image-1-2.gif")
 front <- image_scale(danca, "200")
